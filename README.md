@@ -34,9 +34,9 @@ Ce dépôt est le **point de distribution officiel** de Tirelire : installateurs
 
 | | |
 |---|---|
-| **Tableau de bord** | Revenus, frais fixes, frais variables et reste à vivre du mois. Graphique sur six mois, répartition des dépenses, synthèse du patrimoine, alertes et rappels. |
+| **Tableau de bord** | Reste à vivre du mois, répartition entre frais fixes, frais variables et épargne, taux d'épargne. Six derniers mois en un graphique, patrimoine (valeur nette et plus-value par support), rappels du jour avec pastille sur l'icône de l'application. |
 | **Suivi budgétaire** | Un tableau par mois, trois sections (revenus, frais fixes, frais variables). Reconduction du mois précédent en un clic, vue annuelle pour comparer les douze mois. |
-| **Investissements** | PEA et actions, assurance-vie, crypto, immobilier, livrets réglementés, actionnariat salarié, supports personnalisés. Synthèse globale avec performance et répartition. |
+| **Investissements** | PEA et actions, assurance-vie, crypto, immobilier et prêts, livrets réglementés, actionnariat salarié, placements à terme, supports personnalisés. Chaque support tient un journal d'opérations datées (versements, retraits, achats, ventes, dividendes). Synthèse : valeur nette (actif moins dettes), rendement annualisé, estimation après impôt, répartition par nature. |
 | **Import de relevés** | Collez le texte d'un relevé bancaire : les opérations sont détectées, catégorisées et injectées dans le budget du mois. Tirelire mémorise vos corrections pour les imports suivants. |
 | **Sauvegardes** | Export et import complets de vos données, avec mot de passe si vous le souhaitez. Export CSV. |
 
@@ -52,7 +52,7 @@ Tout fonctionne **hors ligne**. Aucun compte, aucun abonnement, aucune connexion
 
 ![Suivi budgétaire](docs/img/suivi-budgetaire.png)
 
-**Investissements** : tous vos supports au même endroit.
+**Investissements** : tous vos supports au même endroit, avec la valeur nette du portefeuille.
 
 ![Investissements](docs/img/investissements.png)
 
@@ -97,9 +97,11 @@ Les autres fichiers de la page (`latest.yml`, `latest-mac.yml`, `.blockmap`, `.z
 
 Installez la nouvelle version par-dessus l'ancienne, sans désinstaller. Vos données sont conservées : elles ne sont pas dans le dossier de l'application.
 
+**Vous avez une version 3.x ?** La numérotation est repartie de 1.0.0 le 4 septembre 2026, première version officielle. Une installation 3.x ne verra pas cette version dans ses mises à jour automatiques : téléchargez l'installateur ici et installez-le par-dessus, vos données sont conservées.
+
 ## Premier lancement
 
-- Tirelire s'ouvre directement sur le **tableau de bord**, sans mot de passe. Une visite guidée présente les écrans.
+- Tirelire s'ouvre directement sur le **tableau de bord**, sans mot de passe. Les nouveautés de la version s'affichent une fois, puis une visite guidée présente les écrans. Pour relire les nouveautés, cliquez sur la mention de version en bas de la barre latérale.
 - Le tableau est vide : commencez par **Suivi budgétaire** pour saisir vos revenus et charges du mois, ou par **Import de données** pour coller un relevé.
 - Un **mot de passe** (optionnel) se définit dans **Mon compte** > **Sécurité**. Il protège l'ouverture de l'application. Un indice de rappel peut être enregistré avec lui.
 
@@ -108,7 +110,7 @@ Installez la nouvelle version par-dessus l'ancienne, sans désinstaller. Vos don
 Au lancement, Tirelire vérifie si une nouvelle version est publiée ici. Si c'est le cas :
 
 - un **bandeau** apparaît en haut de l'application, avec un bouton **Mettre à jour**. Il se ferme d'une croix et revient au lancement suivant ;
-- l'onglet **Mon compte** > **Mises à jour** affiche la version installée, les notes de version et les actions disponibles.
+- l'onglet **Mon compte** > **Mises à jour** affiche la version installée, les nouveautés de la version proposée et les actions disponibles.
 
 ![Onglet Mises à jour](docs/img/compte-mises-a-jour.png)
 
@@ -153,7 +155,7 @@ Windows : Paramètres > Applications > Tirelire > Désinstaller. macOS : glissez
 
 ## Signaler un problème
 
-- Bug ou suggestion : ouvrez une [issue](https://github.com/Vitopya/tirelire_app/issues) en indiquant votre système et la version (visible dans **Mon compte** > **Mises à jour**).
+- Bug ou suggestion : ouvrez une [issue](https://github.com/Vitopya/tirelire_app/issues) en indiquant votre système et la version (en bas de la barre latérale, ou dans **Mon compte** > **Mises à jour**).
 - Faille de sécurité : voir [SECURITY.md](SECURITY.md). Pas de détails en public, merci.
 
 ## Licence
