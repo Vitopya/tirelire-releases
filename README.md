@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="docs/video/tirelire-film-16x9.mp4"><img src="docs/img/film-apercu.gif" alt="Aperçu du film de présentation de Tirelire : une pièce frappée du cochon de Tirelire tourne dans la lumière" width="720"></a><br>
-  <a href="docs/video/tirelire-film-16x9.mp4"><strong>▶ Voir le film de présentation (50 s)</strong></a>
+  <a href="docs/video/tirelire-film-16x9.mp4"><strong>▶ Voir le film de présentation (57 s)</strong></a>
 </p>
 
 ---
@@ -40,14 +40,14 @@ Ce dépôt est le **point de distribution officiel** de Tirelire : installateurs
 
 [![Film de présentation de Tirelire](docs/img/film-affiche.jpg)](docs/video/tirelire-film-16x9.mp4)
 
-**Votre argent, enfin clair.** En 50 secondes, le film montre ce qui distingue Tirelire, chaque fois sur un vrai écran de l'application :
+**Votre argent, enfin clair.** En moins d'une minute, le film montre l'application en entier et ce qui la distingue, chaque fois sur un vrai écran :
 
 - **Sans connexion bancaire** : vous collez votre relevé, Tirelire fait le tri et retient vos corrections.
 - **Ce qui reste vraiment** : le reste à vivre du mois et votre taux d'épargne, vos virements d'épargne comptés une seule fois.
 - **Tout au même endroit** : budget, enveloppes et patrimoine (PEA, assurance-vie, livrets, crypto, immobilier), valeur nette et rendement annualisé.
 - **Vos données restent chez vous** : fichier chiffré, aucun compte en ligne, aucun cloud.
 
-[▶ Voir le film (MP4, 50 s, 16:9)](docs/video/tirelire-film-16x9.mp4). Les écrans du film utilisent des données fictives.
+[▶ Voir le film (MP4, 57 s, 16:9)](docs/video/tirelire-film-16x9.mp4). Les écrans du film utilisent des données fictives.
 
 ## Ce que fait Tirelire
 
@@ -183,4 +183,4 @@ Tirelire est une création de **Joseph Deffayet**, product designer. Logiciel pr
 
 ## English
 
-Tirelire is a personal finance desktop app for Windows and macOS: monthly budget, investments, bank statement import. Everything stays on your computer in an encrypted local file. No account, no cloud, no bank connection. Watch the [50-second film](docs/video/tirelire-film-16x9.mp4) (French). This repository hosts the release binaries and user documentation; source code is not published here. Download the latest build from [Releases](https://github.com/Vitopya/tirelire-releases/releases/latest). Copyright Joseph Deffayet, all rights reserved, see [LICENSE](LICENSE).
+Tirelire is a personal finance desktop app for Windows and macOS: monthly budget, investments, bank statement import. Everything stays on your computer in an encrypted local file. No account, no cloud, no bank connection. Watch the [57-second film](docs/video/tirelire-film-16x9.mp4) (French). This repository hosts the release binaries and user documentation; source code is not published here. Download the latest build from [Releases](https://github.com/Vitopya/tirelire-releases/releases/latest). Copyright Joseph Deffayet, all rights reserved, see [LICENSE](LICENSE).
