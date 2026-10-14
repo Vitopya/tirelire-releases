@@ -5,26 +5,20 @@
 <h1 align="center">Tirelire</h1>
 
 <p align="center">
-  Vos finances personnelles, sur votre ordinateur, et nulle part ailleurs.<br>
-  Budget mensuel, investissements, import de relevés bancaires. Application de bureau Windows et macOS.
+  Votre argent, d'un coup d'œil.<br>
+  Budget, épargne et patrimoine au même endroit, sur votre ordinateur. Application de bureau pour Windows et macOS.
 </p>
 
 <p align="center">
   <a href="https://github.com/Vitopya/tirelire-releases/releases/latest"><strong>Télécharger la dernière version</strong></a>
 </p>
 
-<p align="center">
-  <a href="docs/video/tirelire-film-16x9.mp4"><img src="docs/img/film-conclusion.gif" alt="La conclusion du film de présentation de Tirelire : le cochon arrive en courant, la pièce tombe dans sa fente et il se pose dans son icône, puis le logotype Tirelire, « Votre argent, d’un coup d’œil » et la mention" width="720"></a><br>
-  <a href="docs/video/tirelire-film-16x9.mp4"><strong>▶ Voir le film de présentation (57 s)</strong></a>
-</p>
-
 ---
 
-Ce dépôt est le **point de distribution officiel** de Tirelire : installateurs, fichiers de mise à jour et documentation d'utilisation. Il ne contient pas le code source.
+Vous êtes sur la page officielle de Tirelire. Vous y trouverez les installateurs, les fichiers de mise à jour et le mode d'emploi. Le code source n'est pas publié ici.
 
 ## Sommaire
 
-- [Le film](#le-film)
 - [Ce que fait Tirelire](#ce-que-fait-tirelire)
 - [Aperçu](#aperçu)
 - [Télécharger et installer](#télécharger-et-installer)
@@ -36,34 +30,22 @@ Ce dépôt est le **point de distribution officiel** de Tirelire : installateurs
 - [Licence](#licence)
 - [English](#english)
 
-## Le film
-
-[![Film de présentation de Tirelire](docs/img/film-affiche.jpg)](docs/video/tirelire-film-16x9.mp4)
-
-**Votre argent, enfin clair.** En moins d'une minute, le film montre l'application en entier et ce qui la distingue, chaque fois sur un vrai écran :
-
-- **Sans connexion bancaire** : vous collez votre relevé, Tirelire fait le tri et retient vos corrections.
-- **Ce qui reste vraiment** : le reste à vivre du mois et votre taux d'épargne, vos virements d'épargne comptés une seule fois.
-- **Tout au même endroit** : budget, enveloppes et patrimoine (PEA, assurance-vie, livrets, crypto, immobilier), valeur nette et rendement annualisé.
-- **Vos données restent chez vous** : fichier chiffré, aucun compte en ligne, aucun cloud.
-
-[▶ Voir le film (MP4, 57 s, 16:9)](docs/video/tirelire-film-16x9.mp4). Les écrans du film utilisent des données fictives.
-
 ## Ce que fait Tirelire
 
 | | |
 |---|---|
-| **Tableau de bord** | Reste à vivre du mois, répartition entre frais fixes, frais variables et épargne, taux d'épargne. Six derniers mois en un graphique, patrimoine (valeur nette et plus-value par support), rappels du jour avec pastille sur l'icône de l'application. |
-| **Suivi budgétaire** | Un tableau par mois, trois sections (revenus, frais fixes, frais variables). Reconduction du mois précédent en un clic, vue annuelle pour comparer les douze mois. |
-| **Investissements** | PEA et actions, assurance-vie, crypto, immobilier et prêts, livrets réglementés, actionnariat salarié, placements à terme, supports personnalisés. Chaque support tient un journal d'opérations datées (versements, retraits, achats, ventes, dividendes). Synthèse : valeur nette (actif moins dettes), rendement annualisé, estimation après impôt, répartition par nature. |
-| **Import de relevés** | Collez le texte d'un relevé bancaire : les opérations sont détectées, catégorisées et injectées dans le budget du mois. Tirelire mémorise vos corrections pour les imports suivants. |
-| **Sauvegardes** | Export et import complets de vos données, avec mot de passe si vous le souhaitez. Export CSV. |
+| **Tableau de bord** | Le reste à vivre du mois, la répartition entre frais fixes, frais variables et épargne, votre taux d'épargne. Les six derniers mois en un graphique, votre patrimoine (valeur nette et plus-value par support), vos rappels avec une pastille sur l'icône de l'application. |
+| **Suivi budgétaire** | Un tableau par mois en trois sections : revenus, frais fixes, frais variables. Les lignes du mois précédent se reprennent en un clic, et la vue de l'année compare les douze mois. |
+| **Investissements** | PEA et actions, assurance-vie, crypto, immobilier et prêts, livrets réglementés, actionnariat salarié, placements à terme, supports personnalisés. Chaque support garde un journal d'opérations datées (versements, retraits, achats, ventes, dividendes). La synthèse donne la valeur nette (actif moins dettes), le rendement annualisé, une estimation après impôt et la répartition par type de placement. |
+| **Import de relevés** | Collez le texte d'un relevé bancaire : Tirelire reconnaît les opérations, les range dans leur catégorie et les ajoute au budget du mois. Vos corrections servent aux imports suivants. |
+| **Rappels et alertes** | Vos échéances, avec une notification le jour venu. Des alertes automatiques aussi : budget dépassé, relevé manquant, PEA qui atteint cinq ans, épargne salariale débloquée. |
+| **Sauvegardes** | Export et import complets de vos données, protégés par mot de passe si vous le souhaitez. Export CSV. |
 
 Tout fonctionne **hors ligne**. Aucun compte, aucun abonnement, aucune connexion bancaire.
 
 ## Aperçu
 
-**Tableau de bord** : le mois d'un coup d'oeil.
+**Tableau de bord** : le mois d'un coup d'œil.
 
 ![Tableau de bord](docs/img/dashboard.png)
 
@@ -150,7 +132,7 @@ Rien n'est téléchargé sans votre accord. Sur macOS, si l'installation automat
 
 **Sauvegardes** : **Mon compte** > **Données**. Exportez régulièrement, avec mot de passe si le fichier doit quitter votre machine. C'est aussi le seul moyen de récupérer vos données si le trousseau du système est réinitialisé, si vous changez d'ordinateur, ou si vous réinstallez le système.
 
-**Réseau** : Tirelire ne contacte aucun serveur, sauf cette page GitHub pour vérifier les mises à jour. Aucune donnée n'en sort.
+**Réseau** : Tirelire ne contacte qu'un serveur, cette page GitHub, pour vérifier les mises à jour. Aucune donnée n'en sort.
 
 ## Questions fréquentes
 
@@ -183,4 +165,4 @@ Tirelire est une création de **Joseph Deffayet**, product designer. Logiciel pr
 
 ## English
 
-Tirelire is a personal finance desktop app for Windows and macOS: monthly budget, investments, bank statement import. Everything stays on your computer in an encrypted local file. No account, no cloud, no bank connection. Watch the [57-second film](docs/video/tirelire-film-16x9.mp4) (French). This repository hosts the release binaries and user documentation; source code is not published here. Download the latest build from [Releases](https://github.com/Vitopya/tirelire-releases/releases/latest). Copyright Joseph Deffayet, all rights reserved, see [LICENSE](LICENSE).
+Tirelire is a personal finance desktop app for Windows and macOS: monthly budget, investments, bank statement import. Everything stays on your computer in an encrypted local file. No account, no cloud, no bank connection. This repository hosts the installers and the user guide; the source code is not published here. Download the latest build from [Releases](https://github.com/Vitopya/tirelire-releases/releases/latest). Copyright Joseph Deffayet, all rights reserved, see [LICENSE](LICENSE).
