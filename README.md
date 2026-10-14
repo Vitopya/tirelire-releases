@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="docs/video/tirelire-film-16x9.mp4"><img src="docs/img/film-apercu.gif" alt="Aperçu du film de présentation de Tirelire : une pièce frappée du cochon de Tirelire tourne dans la lumière" width="720"></a><br>
+  <a href="docs/video/tirelire-film-16x9.mp4"><img src="docs/img/film-conclusion.gif" alt="La conclusion du film de présentation de Tirelire : le cochon arrive en courant, la pièce tombe dans sa fente et il se pose dans son icône, puis le logotype Tirelire, « Votre argent, d’un coup d’œil » et la mention" width="720"></a><br>
   <a href="docs/video/tirelire-film-16x9.mp4"><strong>▶ Voir le film de présentation (57 s)</strong></a>
 </p>
 
