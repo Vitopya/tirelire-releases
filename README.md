@@ -1,12 +1,10 @@
 <p align="center">
-  <img src="docs/img/logo.png" alt="Tirelire" width="120">
+  <img src="docs/img/affiche.jpg" alt="Tirelire, votre argent enfin clair" width="820">
 </p>
 
-<h1 align="center">Tirelire</h1>
-
 <p align="center">
-  Votre argent, d'un coup d'œil.<br>
-  Budget, épargne et patrimoine au même endroit, sur votre ordinateur. Application de bureau pour Windows et macOS.
+  Budget, épargne et patrimoine au même endroit, sur votre ordinateur.<br>
+  Application de bureau gratuite pour Windows et Mac.
 </p>
 
 <p align="center">
@@ -15,154 +13,126 @@
 
 ---
 
-Vous êtes sur la page officielle de Tirelire. Vous y trouverez les installateurs, les fichiers de mise à jour et le mode d'emploi. Le code source n'est pas publié ici.
+## Dernière version
 
-## Sommaire
+<!-- release:start -->
+**Version 1.6.5**, publiée le 16 octobre 2026. [Télécharger](https://github.com/Vitopya/tirelire-releases/releases/latest)
 
-- [Ce que fait Tirelire](#ce-que-fait-tirelire)
-- [Aperçu](#aperçu)
-- [Télécharger et installer](#télécharger-et-installer)
-- [Premier lancement](#premier-lancement)
-- [Mises à jour](#mises-à-jour)
-- [Vos données](#vos-données)
-- [Questions fréquentes](#questions-fréquentes)
-- [Signaler un problème](#signaler-un-problème)
-- [Licence](#licence)
-- [English](#english)
+**Nouveautés**
+
+- Sous Windows, les prochaines mises à jour se téléchargent seules et s'installent sans assistant, à la fermeture de Tirelire ou d'un clic.
+- Le graphique des six derniers mois montre d'un coup d'œil ce que chaque mois a coûté, mis de côté et laissé.
+
+**Ajustements**
+
+- Le menu du compte ferme la barre latérale ; la version et les nouveautés s'y trouvent.
+- Les sons de l'interface sont coupés par défaut. Ils se réactivent dans Mon compte > Apparence.
+<!-- release:end -->
 
 ## Ce que fait Tirelire
 
 | | |
 |---|---|
-| **Tableau de bord** | Le reste à vivre du mois, la répartition entre frais fixes, frais variables et épargne, votre taux d'épargne. Les six derniers mois en un graphique, votre patrimoine (valeur nette et plus-value par support), vos rappels avec une pastille sur l'icône de l'application. |
-| **Suivi budgétaire** | Un tableau par mois en trois sections : revenus, frais fixes, frais variables. Les lignes du mois précédent se reprennent en un clic, et la vue de l'année compare les douze mois. |
-| **Investissements** | PEA et actions, assurance-vie, crypto, immobilier et prêts, livrets réglementés, actionnariat salarié, placements à terme, supports personnalisés. Chaque support garde un journal d'opérations datées (versements, retraits, achats, ventes, dividendes). La synthèse donne la valeur nette (actif moins dettes), le rendement annualisé, une estimation après impôt et la répartition par type de placement. |
-| **Import de relevés** | Collez le texte d'un relevé bancaire : Tirelire reconnaît les opérations, les range dans leur catégorie et les ajoute au budget du mois. Vos corrections servent aux imports suivants. |
-| **Rappels et alertes** | Vos échéances, avec une notification le jour venu. Des alertes automatiques aussi : budget dépassé, relevé manquant, PEA qui atteint cinq ans, épargne salariale débloquée. |
-| **Sauvegardes** | Export et import complets de vos données, protégés par mot de passe si vous le souhaitez. Export CSV. |
+| **Tableau de bord** | Le reste à vivre du mois, la répartition entre frais fixes, frais variables et épargne, le taux d'épargne, les six derniers mois en un graphique, la valeur de votre patrimoine et vos rappels. |
+| **Suivi budgétaire** | Un tableau par mois : revenus, frais fixes, frais variables. Les lignes du mois précédent se reprennent en un clic ; la vue annuelle compare les douze mois. |
+| **Investissements** | PEA, assurance-vie, livrets, actionnariat salarié, crypto, immobilier et prêts, supports personnalisés. Chaque support garde son historique d'opérations ; la synthèse donne la valeur nette, le rendement annualisé et une estimation après impôt. |
+| **Import de relevés** | Collez le texte d'un relevé bancaire : Tirelire reconnaît les opérations, les classe et remplit le budget du mois. Vos corrections servent aux imports suivants. |
+| **Rappels et alertes** | Vos échéances, avec une notification le jour venu, et des alertes automatiques : budget dépassé, relevé manquant, PEA de cinq ans, épargne salariale disponible. |
+| **Sauvegardes** | Export et import complets, protégés par mot de passe si vous le souhaitez. Export CSV. |
 
-Tout fonctionne **hors ligne**. Aucun compte, aucun abonnement, aucune connexion bancaire.
+Tout fonctionne hors ligne. Pas de compte, pas d'abonnement, pas de connexion bancaire.
 
 ## Aperçu
 
-**Tableau de bord** : le mois d'un coup d'œil.
+![Tableau de bord, thème sombre](docs/img/dashboard-dark.png)
 
-![Tableau de bord](docs/img/dashboard.png)
-
-**Suivi budgétaire** : vos lignes, mois par mois.
+![Tableau de bord, thème clair](docs/img/dashboard.png)
 
 ![Suivi budgétaire](docs/img/suivi-budgetaire.png)
 
-**Investissements** : tous vos supports au même endroit, avec la valeur nette du portefeuille.
-
 ![Investissements](docs/img/investissements.png)
-
-**Import de données** : collez, vérifiez, validez.
 
 ![Import de données](docs/img/import-de-donnees.png)
 
-**Thème sombre** disponible depuis le menu du compte.
-
-![Tableau de bord en thème sombre](docs/img/dashboard-dark.png)
-
-Les captures utilisent des données fictives.
+Captures réalisées avec des données fictives.
 
 ## Télécharger et installer
 
-Rendez-vous sur la page de la [**dernière version**](https://github.com/Vitopya/tirelire-releases/releases/latest), section **Assets**, et prenez le fichier qui correspond à votre système.
+Sur la page de la [dernière version](https://github.com/Vitopya/tirelire-releases/releases/latest), section **Assets**, prenez le fichier de votre ordinateur :
 
-| Système | Fichier | Remarque |
-|---|---|---|
-| Windows 10 / 11 (64 bits) | `Tirelire-Setup-X.Y.Z.exe` | Installateur classique, choix du dossier possible |
-| macOS Apple Silicon | `Tirelire-X.Y.Z-arm64.dmg` | Mac M1, M2, M3, M4 |
-| macOS Intel | `Tirelire-X.Y.Z-x64.dmg` | Mac Intel |
+| Ordinateur | Fichier |
+|---|---|
+| Windows 10 ou 11, 64 bits | `Tirelire-Setup-X.Y.Z.exe` |
+| Mac Apple Silicon (M1 et suivants) | `Tirelire-X.Y.Z-arm64.dmg` |
 
-Les autres fichiers de la page (`latest.yml`, `latest-mac.yml`, `.blockmap`, `.zip`) servent au mécanisme de mise à jour. Vous n'avez pas à les télécharger.
+Les autres fichiers (`.yml`, `.blockmap`, `.zip`) servent aux mises à jour automatiques. Les Mac à processeur Intel ne sont pas pris en charge.
 
-### Windows
+**Windows.** Ouvrez le fichier et suivez l'assistant. Si Windows affiche « Windows a protégé votre ordinateur », c'est parce que l'application n'a pas de certificat commercial : cliquez sur **Informations complémentaires**, puis **Exécuter quand même**.
 
-1. Ouvrez `Tirelire-Setup-X.Y.Z.exe`.
-2. Si **Windows SmartScreen** affiche « Windows a protégé votre ordinateur » : cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. L'application n'est pas signée par un certificat commercial, ce qui déclenche cet avertissement.
-3. Suivez l'assistant. Tirelire s'installe pour votre compte utilisateur, sans droits administrateur.
-4. Lancez Tirelire depuis le menu Démarrer.
-
-### macOS
-
-1. Ouvrez le fichier `.dmg` et glissez **Tirelire** dans **Applications**.
-2. À la première ouverture, macOS peut refuser de lancer l'application (« ne peut pas être ouverte car elle provient d'un développeur non identifié »). Deux solutions :
-   - clic droit sur Tirelire dans Applications, **Ouvrir**, puis confirmer ;
-   - ou **Réglages Système** > **Confidentialité et sécurité**, bouton **Ouvrir quand même** en bas de la page.
-3. Cette manipulation n'est nécessaire qu'une fois.
-
-### Mettre à jour une installation existante
-
-Installez la nouvelle version par-dessus l'ancienne, sans désinstaller. Vos données sont conservées : elles ne sont pas dans le dossier de l'application.
-
-**Vous avez une version 3.x ?** La numérotation est repartie de 1.0.0 le 4 septembre 2026, première version officielle. Une installation 3.x ne verra pas cette version dans ses mises à jour automatiques : téléchargez l'installateur ici et installez-le par-dessus, vos données sont conservées.
+**Mac.** Ouvrez le `.dmg` et glissez Tirelire dans **Applications**. Si macOS bloque la première ouverture : clic droit sur Tirelire, **Ouvrir**, puis confirmez. Ou **Réglages Système** > **Confidentialité et sécurité** > **Ouvrir quand même**. Ce n'est demandé qu'une fois.
 
 ## Premier lancement
 
-- Tirelire s'ouvre directement sur le **tableau de bord**, sans mot de passe. Les nouveautés de la version s'affichent une fois, puis une visite guidée présente les écrans. Pour relire les nouveautés, cliquez sur la mention de version en bas de la barre latérale.
-- Le tableau est vide : commencez par **Suivi budgétaire** pour saisir vos revenus et charges du mois, ou par **Import de données** pour coller un relevé.
-- Un **mot de passe** (optionnel) se définit dans **Mon compte** > **Sécurité**. Il protège l'ouverture de l'application. Un indice de rappel peut être enregistré avec lui.
+1. Tirelire vous propose de protéger l'application par un mot de passe. C'est facultatif : **Continuer sans mot de passe** ouvre directement le tableau de bord, et vous pourrez en définir un plus tard dans **Mon compte** > **Sécurité**.
+2. Les nouveautés de la version s'affichent, puis une courte visite présente les écrans.
+3. Commencez par **Suivi budgétaire** pour saisir le mois en cours, ou par **Import de données** pour coller un relevé.
 
 ## Mises à jour
 
-Au lancement, Tirelire vérifie si une nouvelle version est publiée ici. Si c'est le cas :
+Tirelire vérifie au lancement si une nouvelle version est publiée ici.
 
-- un **bandeau** apparaît en haut de l'application, avec un bouton **Mettre à jour**. Il se ferme d'une croix et revient au lancement suivant ;
-- l'onglet **Mon compte** > **Mises à jour** affiche la version installée, les nouveautés de la version proposée et les actions disponibles.
+- **Windows** : la mise à jour se télécharge seule, puis s'installe quand vous fermez l'application, ou tout de suite avec **Redémarrer maintenant**. Aucun assistant à suivre.
+- **Mac** : un bandeau vous la propose. Si l'installation automatique n'aboutit pas, Tirelire ouvre cette page : téléchargez le `.dmg` et remplacez l'application.
 
-![Onglet Mises à jour](docs/img/compte-mises-a-jour.png)
-
-Rien n'est téléchargé sans votre accord. Sur macOS, si l'installation automatique n'est pas possible, Tirelire vous renvoie vers cette page pour télécharger le fichier manuellement.
+Le détail de la version proposée se lit dans **Mon compte** > **Mises à jour**. Une mise à jour ne touche jamais à vos données.
 
 ## Vos données
 
-**Où sont-elles ?** Sur votre ordinateur, dans un fichier unique :
+**Où sont-elles ?** Sur votre ordinateur, dans un seul fichier :
 
-| Système | Emplacement |
+| Système | Dossier |
 |---|---|
-| Windows | `%APPDATA%\finboard\data\finboard.db` |
-| macOS | `~/Library/Application Support/finboard/data/finboard.db` |
+| Windows | `%APPDATA%\finboard\data\` (ou `%APPDATA%\tirelire\data\` sur certaines installations) |
+| Mac | `~/Library/Application Support/finboard/data/` |
 
-**Sont-elles protégées ?** Le fichier est **chiffré** (SQLCipher, clé de 256 bits). La clé est générée au premier lancement et rangée dans le trousseau du système, DPAPI sous Windows, Keychain sous macOS. Elle est liée à votre session utilisateur : une personne qui copie le fichier sur une autre machine ou depuis un autre compte ne peut pas le lire.
+**Sont-elles protégées ?** Le fichier est chiffré (SQLCipher, clé de 256 bits). La clé est créée au premier lancement et rangée dans le coffre du système (DPAPI sous Windows, Trousseau sur Mac), lié à votre session : copié sur une autre machine ou depuis un autre compte, le fichier reste illisible. Il ne protège pas une session laissée ouverte : verrouillez-la, et définissez un mot de passe dans Tirelire si l'ordinateur est partagé.
 
-**Ce que ça ne protège pas** : une session ouverte sur votre compte. Verrouillez votre session et, si l'ordinateur est partagé, définissez un mot de passe dans Tirelire.
+**Sauvegardes.** **Mon compte** > **Données**. Exportez de temps en temps, avec un mot de passe si le fichier quitte votre machine. C'est la seule façon de retrouver vos données après un changement d'ordinateur ou une réinstallation du système.
 
-**Sauvegardes** : **Mon compte** > **Données**. Exportez régulièrement, avec mot de passe si le fichier doit quitter votre machine. C'est aussi le seul moyen de récupérer vos données si le trousseau du système est réinitialisé, si vous changez d'ordinateur, ou si vous réinstallez le système.
-
-**Réseau** : Tirelire ne contacte qu'un serveur, cette page GitHub, pour vérifier les mises à jour. Aucune donnée n'en sort.
+**Réseau.** Tirelire ne contacte qu'un serveur, cette page, pour savoir si une nouvelle version existe. Aucune donnée n'est envoyée.
 
 ## Questions fréquentes
 
 **Tirelire se connecte-t-elle à ma banque ?**
-Non, et c'est volontaire. Vous collez le texte d'un relevé, Tirelire fait le tri. Aucun identifiant bancaire n'est saisi.
+Non, volontairement. Vous collez le texte d'un relevé, Tirelire fait le tri. Aucun identifiant bancaire n'est demandé.
 
 **Puis-je l'utiliser sur deux ordinateurs ?**
-Oui, avec un export sur le premier et un import sur le second. Il n'y a pas de synchronisation automatique.
+Oui : export sur le premier, import sur le second. Il n'y a pas de synchronisation automatique.
 
 **J'ai oublié mon mot de passe.**
-L'indice de rappel s'affiche sur l'écran de connexion. Sans lui, restaurez une sauvegarde : elle ne contient pas le mot de passe.
+Sur l'écran de connexion, **Mot de passe oublié ?** le réinitialise. Vos données sont conservées.
 
 **Windows dit que l'application est dangereuse.**
-C'est l'avertissement SmartScreen sur les applications sans certificat commercial. Vérifiez que vous avez téléchargé le fichier depuis cette page, puis **Informations complémentaires** > **Exécuter quand même**.
+C'est l'avertissement affiché pour les applications sans certificat commercial. Vérifiez que le fichier vient bien de cette page, puis **Informations complémentaires** > **Exécuter quand même**.
 
 **L'application ne s'ouvre pas.**
-Fermez toute instance déjà lancée, puis relancez. Sur Windows, consultez `%APPDATA%\finboard\finboard-electron.log` et joignez-le à votre signalement.
+Fermez toute fenêtre Tirelire déjà ouverte et relancez. Sous Windows, le journal `finboard-electron.log`, dans le dossier `%APPDATA%\finboard\` (ou `tirelire`), aide à comprendre : joignez-le à votre signalement.
+
+**J'ai une version 3.x.**
+La numérotation est repartie de 1.0.0 le 4 septembre 2026. Une version 3.x ne voit pas les nouvelles versions : téléchargez l'installateur ici et installez-le par-dessus, vos données sont conservées.
 
 **Comment désinstaller ?**
-Windows : Paramètres > Applications > Tirelire > Désinstaller. macOS : glissez Tirelire dans la corbeille. Dans les deux cas, le fichier de données est conservé ; supprimez le dossier indiqué plus haut pour tout effacer.
+Windows : **Paramètres** > **Applications** > Tirelire > **Désinstaller**. Mac : glissez Tirelire dans la corbeille. Le fichier de données reste en place ; supprimez son dossier pour tout effacer.
 
 ## Signaler un problème
 
-- Bug ou suggestion : ouvrez une [issue](https://github.com/Vitopya/tirelire-releases/issues) en indiquant votre système et la version (en bas de la barre latérale, ou dans **Mon compte** > **Mises à jour**).
-- Faille de sécurité : voir [SECURITY.md](SECURITY.md). Pas de détails en public, merci.
+- Bug ou suggestion : ouvrez une [issue](https://github.com/Vitopya/tirelire-releases/issues), avec votre système et la version de Tirelire (menu du compte, en bas de la barre latérale, ligne **Nouveautés**).
+- Faille de sécurité : voir [SECURITY.md](SECURITY.md), sans détail en public.
 
-## Licence
+## Conditions
 
-Tirelire est une création de **Joseph Deffayet**, product designer. Logiciel propriétaire, tous droits réservés : usage personnel, pas de redistribution ni d'usage commercial sans accord écrit. Conditions complètes dans [LICENSE](LICENSE).
+Tirelire est une création de Joseph Deffayet, gratuite pour un usage personnel. Le logiciel, son interface et ses textes restent sa propriété : copie, redistribution, modification et usage commercial sont interdits sans accord écrit. Le code source n'est pas publié. Conditions complètes dans [LICENSE](LICENSE).
 
 ## English
 
-Tirelire is a personal finance desktop app for Windows and macOS: monthly budget, investments, bank statement import. Everything stays on your computer in an encrypted local file. No account, no cloud, no bank connection. This repository hosts the installers and the user guide; the source code is not published here. Download the latest build from [Releases](https://github.com/Vitopya/tirelire-releases/releases/latest). Copyright Joseph Deffayet, all rights reserved, see [LICENSE](LICENSE).
+Tirelire is a free personal finance desktop app for Windows and Apple Silicon Macs: monthly budget, investments, bank statement import. Everything stays on your computer in an encrypted file; no account, no cloud, no bank connection. This repository hosts the installers and the user guide only. Download the [latest version](https://github.com/Vitopya/tirelire-releases/releases/latest). Copyright Joseph Deffayet, all rights reserved, see [LICENSE](LICENSE).
